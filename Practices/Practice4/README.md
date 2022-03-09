@@ -19,7 +19,7 @@ def fibonacci1(n:Int): Int =
     }
 } 
 ```
-<hr>
+
 
 2.- Version with explicit formula
  ```scala
@@ -43,7 +43,7 @@ def fibonacci2(n:Double): Double =
 } 
  
  ```
-<hr>
+
 3.-Interactive version
  ```scala
 def fibonacci3(n3:Int):Int=  
@@ -61,7 +61,7 @@ def fibonacci3(n3:Int):Int=
     return a  
 }  
 ```
-<hr>
+
 4.- Iterative version 2 variables
  ```scala
 
@@ -80,7 +80,7 @@ def fibonacci4(n:Int):Int=
 }  
 
 ```
-<hr>
+
 5.- Iterative version with vector
  ```scala
 
