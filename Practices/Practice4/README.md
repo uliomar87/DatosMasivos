@@ -2,6 +2,8 @@
 
 1.- Version recursiva descendente  
 
+```scala
+
 def fibonacci1(n:Int): Int =   
 {  
     if (n<2)  
@@ -16,11 +18,14 @@ def fibonacci1(n:Int): Int =
     {
         return (fibonacci(n-1) + fibonacci(n-2))  
     }
-}  
+} 
+```
 
 2.- Version con formula explicita    
 
-var p: Double = 0;  
+ ```scala
+ 
+ var p: Double = 0;  
 var j: Double = 0;  
 
 def fibonacci2(n:Double): Double =  
@@ -36,10 +41,14 @@ def fibonacci2(n:Double): Double =
 
         return j  
     }  
-}  
+} 
+ 
+ ```
+
 
 3.-Version interativa    
 
+ ```scala
 def fibonacci3(n3:Int):Int=  
 {  
     var a=0; 
@@ -54,8 +63,10 @@ def fibonacci3(n3:Int):Int=
     }  
     return a  
 }  
-
+```
 4.- Version iterativa 2 variables      
+
+ ```scala
 
 def fibonacci4(n:Int):Int=  
 {  
@@ -71,7 +82,11 @@ def fibonacci4(n:Int):Int=
     return b;  
 }  
 
+```
+
 5.- Version iterativa con vector       
+
+ ```scala
 
 def fibonacci5(n:Int): Int=  
 {  
@@ -93,3 +108,4 @@ def fibonacci5(n:Int): Int=
         return vect(n)  
     }  
 }  
+```
