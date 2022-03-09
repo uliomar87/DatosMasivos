@@ -1,7 +1,6 @@
 ## Practice 4 performed with Fibonacci sequence 
 
-1.- Version recursiva descendente  
-
+1.- Recursive descending version
 ```scala
 
 def fibonacci1(n:Int): Int =   
@@ -20,9 +19,9 @@ def fibonacci1(n:Int): Int =
     }
 } 
 ```
+<hr>
 
-2.- Version con formula explicita    
-
+2.- Version with explicit formula
  ```scala
  
  var p: Double = 0;  
@@ -44,10 +43,8 @@ def fibonacci2(n:Double): Double =
 } 
  
  ```
-
-
-3.-Version interativa    
-
+<hr<>
+3.-Interactive version
  ```scala
 def fibonacci3(n3:Int):Int=  
 {  
@@ -64,8 +61,8 @@ def fibonacci3(n3:Int):Int=
     return a  
 }  
 ```
-4.- Version iterativa 2 variables      
-
+<hr>
+4.- Iterative version 2 variables
  ```scala
 
 def fibonacci4(n:Int):Int=  
@@ -83,9 +80,8 @@ def fibonacci4(n:Int):Int=
 }  
 
 ```
-
-5.- Version iterativa con vector       
-
+<hr>
+5.- Iterative version with vector
  ```scala
 
 def fibonacci5(n:Int): Int=  
