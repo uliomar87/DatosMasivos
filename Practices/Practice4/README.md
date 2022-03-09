@@ -43,7 +43,7 @@ def fibonacci2(n:Double): Double =
 } 
  
  ```
-<hr<>
+<hr>
 3.-Interactive version
  ```scala
 def fibonacci3(n3:Int):Int=  
