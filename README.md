@@ -8,5 +8,5 @@
 >> * [PRACTICE 4 ](https://github.com/uliomar87/DatosMasivos/blob/unit2/practices/practice1/practice4/Practice4.md)
 >> * [PRACTICE 5 ](https://github.com/uliomar87/DatosMasivos/tree/unit2/practices/practice1/Practice5)
 >> * [PRACTICE 6 ](https://github.com/uliomar87/DatosMasivos/blob/unit2/practices/practice1/practice6/practice6.md)
->> * [PRACTICE 7 ]()
+>> * [PRACTICE 7 ](https://github.com/uliomar87/DatosMasivos/tree/unit2/practices/practice1/Practice7)
 >> * [EXAM ](https://github.com/uliomar87/DatosMasivos/blob/unit2/exam/exam.md)
