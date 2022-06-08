@@ -47,7 +47,7 @@ Support vector machines belong to a class of learning algorithms
 called kernel methods and are also known as core machines.
 nucleus.
 
-<img alt="Imagen 1" src="">
+<img alt="Imagen 1" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/1.PNG?raw=true">
 
 Support vector machines belong to a class of machine learning algorithms called kernel methods and are also known as kernel machines.
 
@@ -63,7 +63,7 @@ The decision tree is the most powerful and popular classification and prediction
 A decision tree is a flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents a test result, and each leaf node (terminal node) has a class label.
 Decision trees classify instances by ranking them up the tree from the root to some leaf node, which gives the instance ranking. An instance is classified by starting at the root node of the tree, testing the attribute specified by this node, then moving down the branch of the tree corresponding to the value of the attribute as shown in the figure above. This process is then repeated for the subtree rooted in the new node.
 
-<img alt="Imagen 2" src="">
+<img alt="Imagen 2" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/2.PNG?raw=true">
 
 Los puntos fuertes de los métodos de árbol de decisión son:<br>
 ● Los árboles de decisión pueden generar reglas comprensibles.<br>
@@ -75,7 +75,7 @@ importantes para la predicción o clasificación.
 ## Logistic regression
 Logistic Regression is a Machine Learning algorithm that is used for classification problems, it is a predictive analysis algorithm and is based on the concept of probability.
 
-<img alt="Imagen 3" src="">
+<img alt="Imagen 3" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/3.PNG?raw=true">
 
 We can call a logistic regression a linear regression model, but the regression
 logistics uses a more complex cost function, this cost function can be defined
@@ -89,7 +89,7 @@ To map predicted values to probabilities, we use the Sigmoid function. The
 function maps any real value to another value between 0 and 1. In machine learning,
 we use sigmoid to assign predictions to probabilities.
 
-<img alt="Imagen 4" src="">
+<img alt="Imagen 4" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/4.PNG?raw=true">
 
 ## Multilayer perceptron
 The perceptron is very useful for classifying data sets that can be separated
@@ -100,15 +100,15 @@ The Perceptron consists of an input layer and an output layer that are completel
 connected. MLPs have the same input and output layers, but can have
 multiple hidden layers between the aforementioned layers, as seen below.
 
-<img alt="Imagen 5" src="">
+<img alt="Imagen 5" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/5.PNG?raw=true">
 
 The input layer consists of neurons that accept input values. The output of these neurons is the same as that of the input predictors. The input layer nodes represent the input data. All other nodes map inputs to outputs by linearly combining the inputs with the node's weights w and bias b by applying an activation function. This can be written in matrix form for MLPC with layers K + 1 as follows:
 
-<img alt="Imagen 6" src="">
+<img alt="Imagen 6" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/6.PNG?raw=true">
 
 The hidden layers are located between the input and output layers. Typically, the number of hidden layers varies from one to many. It is the core computation layer that has the functions that map the input to the output of a node. The nodes of the intermediate layers use the sigmoid (logistic) function, as follows
 
-<img alt="Imagen 7" src="">
+<img alt="Imagen 7" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/7.PNG?raw=true">
 
 The output layer is the final layer of a neural network that returns the result to the user's environment. Based on the design of a neural network, it also indicates to the previous layers how they have performed in learning the information and consequently.
 
@@ -302,7 +302,7 @@ println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")
 ```
 
 # Results
-<img alt="Imagen 8" src="">
+<img alt="Imagen 8" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/8.PNG?raw=true">
 
 
 
