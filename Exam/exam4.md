@@ -65,12 +65,12 @@ Decision trees classify instances by ranking them up the tree from the root to s
 
 <img alt="Imagen 2" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/2.PNG?raw=true">
 
-Los puntos fuertes de los métodos de árbol de decisión son:<br>
-● Los árboles de decisión pueden generar reglas comprensibles.<br>
-● Los árboles de decisión realizan la clasificación sin requerir mucho cálculo.<br>
-● Los árboles de decisión pueden manejar variables continuas y categóricas.<br>
-● Los árboles de decisión proporcionan una indicación clara de qué campos son más
-importantes para la predicción o clasificación.
+The strengths of decision tree methods are:<br>
+● Decision trees can generate understandable rules.<br>
+● Decision trees perform classification without requiring much computation.<br>
+● Decision trees can handle continuous and categorical variables.<br>
+● Decision trees provide a clear indication of which fields are most
+important for prediction or classification.
 
 ## Logistic regression
 Logistic Regression is a Machine Learning algorithm that is used for classification problems, it is a predictive analysis algorithm and is based on the concept of probability.
