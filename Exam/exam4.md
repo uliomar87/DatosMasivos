@@ -368,6 +368,7 @@ println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")
 # Results
 <img alt="Imagen 8" src="https://github.com/uliomar87/DatosMasivos/blob/unit4/Exam/img/8.PNG?raw=true">
 
+The results of the SVM, Decision Three, Logistic Regression and Multilayer perceptron algorithms after being executed 30 times with the 45 thousand records, we can see that in terms of precision the Decision Three algorithm is the best, however the other algorithms have similar precision.
 
 
 # Conclusion
