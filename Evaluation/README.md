@@ -53,7 +53,7 @@ val dataset = spark.read.option("header","true").option("inferSchema","true").cs
 dataset.show  
 ```
 Result:<br>
-<img alt="Imagen 1" src="">
+<img alt="Imagen 1" src="https://github.com/uliomar87/DatosMasivos/blob/Unid_3/Evaluation/img/1.PNG?raw=true">
 
 
 ```scala
@@ -62,7 +62,7 @@ val  feature_data  = dataset.select("Fresh","Milk","Grocery","Frozen","Detergent
 feature_data.show  
 ```
 Result:<br>
-<img alt="Imagen 2" src="">
+<img alt="Imagen 2" src="https://github.com/uliomar87/DatosMasivos/blob/Unid_3/Evaluation/img/2.PNG?raw=true">
 
 
 ```scala
@@ -79,7 +79,7 @@ val kmeans = new KMeans().setK(3).setSeed(1L)
 val model = kmeans.fit(features)  
 ```
 Result:<br>
-<img alt="Imagen 3" src="">
+<img alt="Imagen 3" src="https://github.com/uliomar87/DatosMasivos/blob/Unid_3/Evaluation/img/3.PNG?raw=true">
 
 
 ```scala
@@ -88,7 +88,7 @@ val WSSSE = model.computeCost(features)
 println(s"Within Set Sum of Squared Errors = $WSSSE")  
 ```
 Result:<br>
-<img alt="Imagen 4" src="">
+<img alt="Imagen 4" src="https://github.com/uliomar87/DatosMasivos/blob/Unid_3/Evaluation/img/4.PNG?raw=true">
 
 ```scala
 // Group Printing Centers
@@ -96,4 +96,4 @@ println("Cluster Centers: ")
 model.clusterCenters.foreach(println)
 ```
 Result:<br>
-<img alt="Imagen 5" src="">
+<img alt="Imagen 5" src="https://github.com/uliomar87/DatosMasivos/blob/Unid_3/Evaluation/img/5.PNG?raw=true">
